@@ -14,9 +14,11 @@ init: false
 map:
   - share:rw
 options:
-  IP Adress: ""
+  IP: ""
   Port: "10800"
-  password: ""
+  Password: ""
 schema:
-  message: "str?"
+  IP: "str?"
+  Port: "str?"
+  Password: "str?"
 #image: "ghcr.io/home-assistant/{arch}-raise3d"

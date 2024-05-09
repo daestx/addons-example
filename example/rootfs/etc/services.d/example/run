@@ -10,10 +10,14 @@
 declare message
 
 ## Get the 'message' key from the user config options.
-message=$(bashio::config 'message')
+ip=$(bashio::config 'IP')
+port="$(bashio::config 'Port')"
+passwd="$(bashio::config 'Password')"
 
 ## Print the message the user supplied, defaults to "Hello World..."
-bashio::log.info "${message:="Hello World..."}"
+bashio::log.info "${ip}"
+bashio::log.info "${port}"
+bashio::log.info "${passwd}"
 
 ## Run your program
 exec python /usr/bin/raise3d.py
