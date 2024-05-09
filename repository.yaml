@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Some example
-url: 'https://github.com/daestx/addons-example'
+name: Raise3D 
+url: 'https://github.com/daestx/raise3d'
 maintainer: daestx
