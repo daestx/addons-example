@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Raise3D
-version: "0.0.1"
+version: "0.0.2"
 slug: example
 description: Raise3D 3D printer support
 url: "https://github.com/daestx/raise3d"
