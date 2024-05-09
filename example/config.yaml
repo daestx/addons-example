@@ -3,7 +3,7 @@ name: Raise3D
 version: "0.0.1"
 slug: example
 description: Raise3D 3D printer support
-url: "https://github.com/daestx/addons-example"
+url: "https://github.com/daestx/raise3d"
 arch:
   - armhf
   - armv7
@@ -17,4 +17,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+#image: "ghcr.io/home-assistant/{arch}-raise3d"
