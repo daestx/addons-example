@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Rasie3D
+# Home Assistant Add-on: Raise3D
 
 Homeassistant addon for Raise3D printer
 
